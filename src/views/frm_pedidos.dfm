@@ -10,7 +10,7 @@ inherited FrmPedidos: TFrmPedidos
   ExplicitHeight = 720
   TextHeight = 15
   object Label1: TLabel
-    Left = 8
+    Left = 9
     Top = 128
     Width = 43
     Height = 15
@@ -24,21 +24,21 @@ inherited FrmPedidos: TFrmPedidos
     Caption = 'Emiss'#227'o :'
   end
   object Label3: TLabel
-    Left = 137
+    Left = 138
     Top = 128
     Width = 62
     Height = 15
     Caption = 'Quantidade'
   end
   object Label4: TLabel
-    Left = 253
+    Left = 254
     Top = 128
     Width = 65
     Height = 15
     Caption = 'Pre'#231'o Venda'
   end
   object Button_PesquisaProduto: TSpeedButton
-    Left = 108
+    Left = 109
     Top = 149
     Width = 23
     Height = 22
@@ -101,7 +101,7 @@ inherited FrmPedidos: TFrmPedidos
     ParentFont = False
   end
   object Button_Insert: TSpeedButton
-    Left = 369
+    Left = 370
     Top = 150
     Width = 23
     Height = 22
@@ -373,12 +373,13 @@ inherited FrmPedidos: TFrmPedidos
     end
   end
   object Edit_Produto: TButtonedEdit
-    Left = 8
+    Left = 9
     Top = 149
     Width = 100
     Height = 23
     NumbersOnly = True
     TabOrder = 12
+    TextHint = 'setas p/ navegar'
     OnChange = Edit_ProdutoChange
     OnEnter = Edit_ProdutoEnter
     OnKeyUp = Edit_ProdutoKeyUp
@@ -393,7 +394,7 @@ inherited FrmPedidos: TFrmPedidos
     TabOrder = 11
   end
   object Edit_Quantidade: TDBEdit
-    Left = 137
+    Left = 138
     Top = 149
     Width = 110
     Height = 23
@@ -403,7 +404,7 @@ inherited FrmPedidos: TFrmPedidos
     OnKeyUp = Edit_QuantidadeKeyUp
   end
   object Edit_PrecoVenda: TDBEdit
-    Left = 253
+    Left = 254
     Top = 149
     Width = 110
     Height = 23
